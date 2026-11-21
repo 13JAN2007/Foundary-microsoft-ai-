@@ -1,0 +1,34 @@
+INVOICE
+Contoso Cloud Services Ltd.
+One Microsoft Way, Redmond, WA 98052
+Email: billing@contoso-cloud.com | Phone: +1 (555) 019-2834
+Tax ID: US-EIN-88492019
+
+Invoice Number: INV-2026-8942
+Date: November 15, 2026
+Due Date: December 15, 2026
+Purchase Order: PO-99104
+
+Billed To:
+Chandigarh University AI Research Lab
+Attention: Arnav Sharma (Computer Science & Engineering)
+NH-05, Chandigarh-Ludhiana Highway, Mohali, Punjab 140413
+Email: arnav.sharma@cumail.in
+
+-------------------------------------------------------------------------------------------------
+Item Description                                                Qty   Unit Price    Total
+-------------------------------------------------------------------------------------------------
+AZ-FND-01  Azure AI Foundry Model Deployment - GPT-4o Standard   10    $50.00        $500.00
+AZ-CU-02   Azure Content Understanding - Multi-modal Extraction  25    $20.00        $500.00
+AZ-SP-03   Azure AI Speech Neural Voice Synthesis (500k Chars)    5    $30.00        $150.00
+AZ-VIS-04  Azure Computer Vision 4.0 Image Processing & OCR       15    $20.00        $300.00
+-------------------------------------------------------------------------------------------------
+Subtotal:                                                                          $1,450.00
+Discount:                                                                            -$50.00
+Tax (18% GST / VAT):                                                                 $261.00
+TOTAL BALANCE DUE:                                                                 $1,661.00
+-------------------------------------------------------------------------------------------------
+
+Payment Terms: Net 30 Days.
+Bank Transfer: Silicon Valley Commercial Bank | Routing: 021000021 | Acct: 987654321012
+Thank you for your business!

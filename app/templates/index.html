@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Azure AI Foundry Suite (AI-901) - Arnav Sharma</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="app-header">
+    <div class="header-container">
+      <div class="brand-wrapper">
+        <div class="azure-logo-icon">
+          <i class="fa-solid fa-cloud"></i>
+        </div>
+        <div>
+          <div class="brand-title">Azure AI Foundry Suite</div>
+          <div class="brand-subtitle">AI-901 Microsoft Azure AI Fundamentals & Implementation System</div>
+        </div>
+      </div>
+      <div class="header-meta">
+        <div class="author-pill">
+          <i class="fa-solid fa-user-graduate"></i>
+          <span><strong>Arnav Sharma</strong> | Chandigarh University</span>
+        </div>
+        <div class="status-badge" id="backendStatusBadge">
+          <span class="status-dot"></span>
+          <span>Foundry Engine: Ready</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Navigation Tabs -->
+  <div class="nav-tabs-wrapper">
+    <nav class="nav-tabs" id="mainNavTabs">
+      <button class="nav-tab-btn active" data-tab="tab-overview">
+        <i class="fa-solid fa-circle-info"></i> Overview & Architecture
+      </button>
+      <button class="nav-tab-btn" data-tab="tab-rai">
+        <i class="fa-solid fa-scale-balanced"></i> Responsible AI (Week 1)
+      </button>
+      <button class="nav-tab-btn" data-tab="tab-workloads">
+        <i class="fa-solid fa-brain"></i> Models & NLP Workloads (Week 2)
+      </button>
+      <button class="nav-tab-btn" data-tab="tab-exam">
+        <i class="fa-solid fa-award"></i> AI-901 Practice Exam
+      </button>
+    </nav>
+  </div>
+
+  <!-- Main Container -->
+  <main class="main-content">
+
+    <!-- 1. TAB: OVERVIEW & ARCHITECTURE -->
+    <section class="tab-pane active" id="tab-overview">
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <div class="card-title">
+              <i class="fa-solid fa-book-open" style="color: var(--accent-blue)"></i>
+              AI-901 Industrial Internship Project Architecture
+            </div>
+            <div class="card-subtitle">
+              Comprehensive implementation of Microsoft Azure AI Fundamentals & Microsoft Foundry SDK
+            </div>
+          </div>
+          <span class="badge badge-info">Syllabus Aligned (April 15, 2026)</span>
+        </div>
+
+        <p style="margin-bottom: 1.2rem; color: var(--text-secondary);">
+          This project fulfills the full scope of the industrial internship report entitled
+          <em>“AZURE AI FUNDAMENTALS (AI-901): LEARNING AND IMPLEMENTING AI SOLUTIONS USING MICROSOFT FOUNDRY”</em>
+          by <strong>Arnav Sharma</strong> at <strong>Chandigarh University</strong>. It implements hands-on solutions
+          across both certified domains.
+        </p>
+
+        <div class="grid-2" style="margin-bottom: 1.5rem;">
+          <div
+            style="background: var(--bg-secondary); padding: 1.2rem; border-radius: var(--radius-md); border: 1px solid var(--border-color);">
+            <h4
+              style="color: var(--accent-blue); margin-bottom: 0.6rem; display: flex; align-items: center; gap: 0.5rem;">
+              <i class="fa-solid fa-diagram-project"></i> Fig. 1.1: AI-901 Skills Outline Structure
+            </h4>
+            <div
+              style="text-align: center; margin-top: 0.8rem; background: #000; border-radius: 8px; padding: 0.5rem; overflow: hidden;">
+              <img src="/static/images/fig1_skills_outline.png" alt="AI-901 Skills Outline"
+                style="max-width: 100%; height: auto; border-radius: 4px;">
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); margin-top: 0.6rem; text-align: center;">
+              Domain 1: Identify AI Concepts & Capabilities (40–45%) | Domain 2: Implement Solutions with Microsoft
+              Foundry (55–60%)
+            </div>
+          </div>
+
+          <div
+            style="background: var(--bg-secondary); padding: 1.2rem; border-radius: var(--radius-md); border: 1px solid var(--border-color);">
+            <h4
+              style="color: var(--accent-cyan); margin-bottom: 0.6rem; display: flex; align-items: center; gap: 0.5rem;">
+              <i class="fa-solid fa-arrows-split-up-and-left"></i> Fig. 2.1: Generative AI Prompt-to-Response Flow
+            </h4>
+            <div
+              style="text-align: center; margin-top: 0.8rem; background: #000; border-radius: 8px; padding: 0.5rem; overflow: hidden;">
+              <img src="/static/images/fig2_prompt_flow.png" alt="Generative AI Prompt Flow"
+                style="max-width: 100%; height: auto; border-radius: 4px;">
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); margin-top: 0.6rem; text-align: center;">
+              System Prompt & User Prompt → Microsoft Foundry Client SDK → Deployed Model Inference → Verified Response
+            </div>
+          </div>
+        </div>
+
+        <div class="card-title" style="font-size: 1.05rem; margin-bottom: 0.8rem;">
+          <i class="fa-solid fa-calendar-check" style="color: var(--success)"></i> 4-Week Internship Implementation Map
+        </div>
+        <div class="grid-2">
+          <div
+            style="background: var(--bg-secondary); padding: 1rem; border-radius: var(--radius-sm); border-left: 4px solid var(--accent-azure);">
+            <strong>Responsible AI & AI Fundamentals</strong>
+            <p style="font-size: 0.86rem; color: var(--text-secondary); margin-top: 0.3rem;">
+              Fairness, Reliability & Safety, Privacy & Security, Inclusiveness, Transparency, and Accountability.
+              Implemented via our automated Audit Engine & Scenario Scanner.
+            </p>
+          </div>
+          <div
+            style="background: var(--bg-secondary); padding: 1rem; border-radius: var(--radius-sm); border-left: 4px solid var(--accent-purple);">
+            <strong>Generative AI, Models & Workloads</strong>
+            <p style="font-size: 0.86rem; color: var(--text-secondary); margin-top: 0.3rem;">
+              Tokens, Transformers, model trade-offs (Phi-3.5 vs GPT-4o), parameter tuning (temperature, top_p), and NLP
+              workloads (Sentiment, NER, Keyphrases, Summarization).
+            </p>
+          </div>
+          <div
+            style="background: var(--bg-secondary); padding: 1rem; border-radius: var(--radius-sm); border-left: 4px solid var(--accent-cyan);">
+            <strong>Microsoft Foundry Chat, Agents & Speech</strong>
+            <p style="font-size: 0.86rem; color: var(--text-secondary); margin-top: 0.3rem;">
+              System/user prompt engineering, lightweight Python chat client with Foundry SDK, Single-Agent Solution
+              with autonomous tool-calling (ReAct loop), and Speech synthesis.
+            </p>
+          </div>
+          <div
+            style="background: var(--bg-secondary); padding: 1rem; border-radius: var(--radius-sm); border-left: 4px solid var(--success);">
+            <strong>Week 4: Vision, Content Understanding & Examination</strong>
+            <p style="font-size: 0.86rem; color: var(--text-secondary); margin-top: 0.3rem;">
+              Multimodal image analysis (VQA), generative visuals (DALL-E 3), Azure Content Understanding (Invoices,
+              forms, audio/video), Capstone Assistant, and AI-901 Exam simulator.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. TAB: RESPONSIBLE AI (WEEK 1) -->
+    <section class="tab-pane" id="tab-rai">
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <div class="card-title">
+              <i class="fa-solid fa-scale-balanced" style="color: var(--accent-blue)"></i>
+              The 6 Principles of Responsible AI (Microsoft Standard v2)
+            </div>
+            <div class="card-subtitle">
+              Audit AI scenarios and detect algorithmic bias, safety vulnerabilities, and PII leakage
+            </div>
+          </div>
+          <span class="badge badge-purple">Week 1 Focus</span>
+        </div>
+
+        <!-- 6 Principles Cards -->
+        <div class="grid-3" style="margin-bottom: 1.5rem;">
+          <div class="rai-principle-card">
+            <div class="rai-icon-box"><i class="fa-solid fa-scale-unbalanced"></i></div>
+            <strong>1. Fairness</strong>
+            <p style="font-size: 0.82rem; color: var(--text-secondary); margin-top: 0.4rem;">
+              Treat all demographic groups equitably without systemic bias across gender, ethnicity, or socioeconomic
+              status.
+            </p>
+          </div>
+          <div class="rai-principle-card">
+            <div class="rai-icon-box"><i class="fa-solid fa-shield-halved"></i></div>
+            <strong>2. Reliability & Safety</strong>
+            <p style="font-size: 0.82rem; color: var(--text-secondary); margin-top: 0.4rem;">
+              Operate reliably within design boundaries, handle edge cases gracefully, and prevent hazardous
+              hallucinations.
+            </p>
+          </div>
+          <div class="rai-principle-card">
+            <div class="rai-icon-box"><i class="fa-solid fa-lock"></i></div>
+            <strong>3. Privacy & Security</strong>
+            <p style="font-size: 0.82rem; color: var(--text-secondary); margin-top: 0.4rem;">
+              Safeguard personal data (PII), respect consent, prevent prompt-injection attacks, and maintain encryption.
+            </p>
+          </div>
+          <div class="rai-principle-card">
+            <div class="rai-icon-box"><i class="fa-solid fa-universal-access"></i></div>
+            <strong>4. Inclusiveness</strong>
+            <p style="font-size: 0.82rem; color: var(--text-secondary); margin-top: 0.4rem;">
+              Empower people of diverse physical abilities, languages, and cultural backgrounds through accessible
+              design (WCAG).
+            </p>
+          </div>
+          <div class="rai-principle-card">
+            <div class="rai-icon-box"><i class="fa-solid fa-eye"></i></div>
+            <strong>5. Transparency</strong>
+            <p style="font-size: 0.82rem; color: var(--text-secondary); margin-top: 0.4rem;">
+              Provide explainable outputs, model cards, confidence indicators, and clear disclosures that an AI is
+              responding.
+            </p>
+          </div>
+          <div class="rai-principle-card">
+            <div class="rai-icon-box"><i class="fa-solid fa-user-check"></i></div>
+            <strong>6. Accountability</strong>
+            <p style="font-size: 0.82rem; color: var(--text-secondary); margin-top: 0.4rem;">
+              Designated human operators must remain answerable for system decisions (Human-in-the-loop oversight).
+            </p>
+          </div>
+        </div>
+
+        <div class="grid-2">
+          <!-- Scenario Selector -->
+          <div
+            style="background: var(--bg-secondary); padding: 1.2rem; border-radius: var(--radius-md); border: 1px solid var(--border-color);">
+            <div class="card-title" style="font-size: 1rem; margin-bottom: 0.8rem;">
+              <i class="fa-solid fa-list-check" style="color: var(--accent-blue)"></i> Predefined Case Studies
+            </div>
+            <div class="form-group">
+              <label class="form-label">Select Exam Scenario</label>
+              <select class="form-select" id="predefinedScenarioSelect">
+                <option value="scenario_loan">Scenario 1: Automated Loan Underwriting (Finance)</option>
+                <option value="scenario_health">Scenario 2: Clinical Diagnostic Triage Copilot (Healthcare)</option>
+                <option value="scenario_campus">Scenario 3: Campus Biometric Attendance (Education)</option>
+                <option value="scenario_student_bot">Scenario 4: Multilingual Student Advising Bot (Compliant)</option>
+              </select>
+            </div>
+            <button class="btn btn-secondary" id="btnLoadPredefinedScenario" style="width: 100%; margin-bottom: 1rem;">
+              <i class="fa-solid fa-file-arrow-up"></i> Load Into Scanner
+            </button>
+            <div id="predefinedDetailsBox" style="font-size: 0.86rem; color: var(--text-secondary); line-height: 1.5;">
+            </div>
+          </div>
+
+          <!-- Custom Scenario Scanner -->
+          <div
+            style="background: var(--bg-secondary); padding: 1.2rem; border-radius: var(--radius-md); border: 1px solid var(--border-color);">
+            <div class="card-title" style="font-size: 1rem; margin-bottom: 0.8rem;">
+              <i class="fa-solid fa-microscope" style="color: var(--accent-cyan)"></i> Live Responsible AI Compliance
+              Scanner
+            </div>
+            <div class="form-group">
+              <label class="form-label">Enter System Prompt, Workflow Description, or User Input</label>
+              <textarea id="customScenarioInput" rows="4"
+                placeholder="e.g. Automatically reject hiring applications for candidates over age 50 without providing reasons..."></textarea>
+            </div>
+            <button class="btn btn-primary" id="btnAuditScenario" style="width: 100%;">
+              <i class="fa-solid fa-magnifying-glass-chart"></i> Run Responsible AI Audit
+            </button>
+          </div>
+        </div>
+
+        <!-- Audit Results Box -->
+        <div id="raiAuditResultContainer" style="margin-top: 1.5rem; display: none;">
+          <div
+            style="background: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 1.5rem;">
+            <div
+              style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;">
+              <div style="display: flex; align-items: center; gap: 1rem;">
+                <div style="font-size: 2rem; font-weight: 800;" id="raiScoreDisplay">85/100</div>
+                <div>
+                  <div style="font-weight: 700; font-size: 1.05rem;" id="raiStatusText">Status</div>
+                  <div style="font-size: 0.82rem; color: var(--text-muted);" id="raiSubtitle">Microsoft Responsible AI
+                    Standard v2 Scorecard</div>
+                </div>
+              </div>
+              <div id="raiBadgePill"></div>
+            </div>
+
+            <div class="grid-3" id="raiPrincipleScoresGrid" style="margin-bottom: 1.2rem;"></div>
+
+            <div id="raiRisksBox" style="margin-bottom: 1rem;"></div>
+            <div id="raiRemediationsBox"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. TAB: GENERATIVE AI & WORKLOADS (WEEK 2) -->
+    <section class="tab-pane" id="tab-workloads">
+      <div class="grid-2">
+        <!-- Model Catalog & Tokenizer -->
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <div class="card-title">
+                <i class="fa-solid fa-cubes-stacked" style="color: var(--accent-blue)"></i>
+                Foundry Model Catalog & Tokenizer
+              </div>
+              <div class="card-subtitle">Understand tokens, Transformer inference, and cost trade-offs</div>
+            </div>
+            <span class="badge badge-purple">Week 2</span>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Available Microsoft Foundry Models</label>
+            <div style="display: flex; flex-direction: column; gap: 0.6rem;">
+              {% for m in models %}
+              <div
+                style="background: var(--bg-secondary); padding: 0.8rem; border-radius: var(--radius-sm); border: 1px solid var(--border-color);">
+                <div style="display: flex; justify-content: space-between;">
+                  <strong style="color: var(--accent-blue);">{{ m.name }}</strong>
+                  <span class="badge badge-info">{{ m.type }}</span>
+                </div>
+                <div style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 0.3rem;">
+                  Provider: {{ m.provider }} | Context: {{ m.context_window }} | Cost: {{ m.cost_per_1k }}
+                </div>
+                <div style="font-size: 0.8rem; color: var(--text-muted); margin-top: 0.2rem;">
+                  Best for: {{ m.recommended_for }}
+                </div>
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+
+          <div class="form-group" style="margin-top: 1.5rem;">
+            <label class="form-label">Interactive Token Calculator</label>
+            <textarea id="tokenInputText" rows="3"
+              placeholder="Type or paste any text to see real-time BPE token count and cost estimate..."></textarea>
+            <div
+              style="display: flex; justify-content: space-between; margin-top: 0.6rem; font-size: 0.86rem; color: var(--text-secondary);">
+              <span>Characters: <strong id="tokenCharCount" style="color: var(--text-primary);">0</strong></span>
+              <span>Words: <strong id="tokenWordCount" style="color: var(--text-primary);">0</strong></span>
+              <span>Estimated Tokens: <strong id="tokenTokenCount" style="color: var(--accent-blue);">0</strong></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- NLP Text Analysis Engine -->
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <div class="card-title">
+                <i class="fa-solid fa-align-left" style="color: var(--accent-cyan)"></i>
+                NLP Text Analysis Engine
+              </div>
+              <div class="card-subtitle" id="nlpEngineSubtitle">Sentiment, Named Entity Recognition, Keyphrases,
+                Summarization</div>
+            </div>
+            <button class="btn btn-secondary btn-sm" id="btnLoadSampleContract">
+              <i class="fa-solid fa-file-lines"></i> Load Sample Agreement
+            </button>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Text to Analyze</label>
+            <textarea id="nlpInputText" rows="4" placeholder="Enter text or customer review to analyze..."></textarea>
+          </div>
+          <button class="btn btn-primary" id="btnRunNlpAnalysis" style="width: 100%; margin-bottom: 1.2rem;">
+            <i class="fa-solid fa-wand-magic-sparkles"></i> Run NLP Analysis Pipeline
+          </button>
+
+          <!-- NLP Results Display -->
+          <div id="nlpResultContainer" style="display: none;">
+            <!-- Sentiment Summary -->
+            <div
+              style="background: var(--bg-secondary); padding: 0.9rem; border-radius: var(--radius-sm); border: 1px solid var(--border-color); margin-bottom: 0.8rem;">
+              <div style="display: flex; justify-content: space-between; align-items: center;">
+                <span style="font-weight: 600;">Overall Sentiment</span>
+                <span class="badge" id="nlpSentimentBadge">Positive</span>
+              </div>
+              <div
+                style="display: flex; gap: 1.5rem; margin-top: 0.4rem; font-size: 0.84rem; color: var(--text-secondary);">
+                <span>Polarity: <strong id="nlpPolarityVal" style="color: var(--text-primary);">0.0</strong></span>
+                <span>Subjectivity: <strong id="nlpSubjectivityVal"
+                    style="color: var(--text-primary);">0.0</strong></span>
+                <span>Confidence: <strong id="nlpConfidenceVal" style="color: var(--text-primary);">0%</strong></span>
+              </div>
+            </div>
+
+            <!-- Entities -->
+            <div
+              style="background: var(--bg-secondary); padding: 0.9rem; border-radius: var(--radius-sm); border: 1px solid var(--border-color); margin-bottom: 0.8rem;">
+              <span style="font-weight: 600; font-size: 0.88rem; display: block; margin-bottom: 0.5rem;">Detected Named
+                Entities (NER)</span>
+              <div id="nlpEntitiesPills" style="display: flex; flex-wrap: wrap; gap: 0.4rem;"></div>
+            </div>
+
+            <!-- Keyphrases -->
+            <div
+              style="background: var(--bg-secondary); padding: 0.9rem; border-radius: var(--radius-sm); border: 1px solid var(--border-color); margin-bottom: 0.8rem;">
+              <span style="font-weight: 600; font-size: 0.88rem; display: block; margin-bottom: 0.5rem;">Salient
+                Keyphrases</span>
+              <div id="nlpKeyphrasesPills" style="display: flex; flex-wrap: wrap; gap: 0.4rem;"></div>
+            </div>
+
+            <!-- Summary -->
+            <div
+              style="background: var(--bg-secondary); padding: 0.9rem; border-radius: var(--radius-sm); border: 1px solid var(--border-color);">
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.4rem;">
+                <span style="font-weight: 600; font-size: 0.88rem;">Extractive Summary</span>
+                <span style="font-size: 0.75rem; color: var(--text-muted);" id="nlpCompressionRatio"></span>
+              </div>
+              <p id="nlpSummaryText" style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.5;"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. TAB: AI-901 PRACTICE EXAM -->
+    <section class="tab-pane" id="tab-exam">
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <div class="card-title">
+              <i class="fa-solid fa-award" style="color: var(--accent-blue)"></i>
+              AI-901: Microsoft Azure AI Fundamentals Certification Practice Exam
+            </div>
+            <div class="card-subtitle">
+              20 authentic exam-grade questions mapped to the April 15, 2026 syllabus | Passing score: 700 / 1000
+            </div>
+          </div>
+          <span class="badge badge-purple">Official 700 Point Threshold</span>
+        </div>
+
+        <!-- Exam Intro & Progress -->
+        <div
+          style="background: var(--bg-secondary); padding: 1.2rem; border-radius: var(--radius-md); border: 1px solid var(--border-color); margin-bottom: 1.5rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+          <div>
+            <div style="font-weight: 700; color: #ffffff;">Candidate: Arnav Sharma</div>
+            <div style="font-size: 0.82rem; color: var(--text-secondary);">
+              Domain 1: Concepts & Capabilities (40–45%) | Domain 2: Foundry Implementation (55–60%)
+            </div>
+          </div>
+          <div style="display: flex; gap: 1rem; align-items: center;">
+            <div style="text-align: right;">
+              <div style="font-size: 0.82rem; color: var(--text-muted);">Answered</div>
+              <div style="font-weight: 700; color: var(--accent-blue);" id="examAnsweredCounter">0 / 20</div>
+            </div>
+            <button class="btn btn-primary" id="btnSubmitExam">
+              <i class="fa-solid fa-paper-plane"></i> Submit & Grade Exam
+            </button>
+          </div>
+        </div>
+
+        <!-- Exam Questions Container -->
+        <div id="examQuestionsContainer" style="display: flex; flex-direction: column; gap: 1.2rem;">
+          <div style="text-align: center; color: var(--text-secondary); padding: 2rem;">Loading AI-901 practice
+            questions...</div>
+        </div>
+
+        <!-- Exam Results Modal / Card -->
+        <div id="examResultsContainer" style="margin-top: 2rem; display: none;">
+          <div
+            style="background: var(--bg-secondary); border: 2px solid var(--accent-blue); border-radius: var(--radius-md); padding: 1.5rem;">
+            <div style="text-align: center; margin-bottom: 1.5rem;">
+              <div id="examPassFailBanner" style="font-size: 1.6rem; font-weight: 800; margin-bottom: 0.4rem;"></div>
+              <div style="font-size: 2.2rem; font-weight: 800; color: var(--accent-blue);" id="examScaledScoreText">0 /
+                1000</div>
+              <div style="font-size: 0.88rem; color: var(--text-secondary);">Required Passing Threshold: 700 points
+              </div>
+            </div>
+
+            <!-- Domain Performance Breakdown -->
+            <div class="grid-2" id="examDomainStatsGrid" style="margin-bottom: 1.5rem;"></div>
+
+            <!-- Certificate Generator Box -->
+            <div
+              style="background: var(--bg-card); border: 1px dashed var(--accent-blue); border-radius: var(--radius-sm); padding: 1.2rem; text-align: center;">
+              <h4 style="color: var(--accent-blue); margin-bottom: 0.4rem;"><i class="fa-solid fa-certificate"></i>
+                Course Certificate Verification</h4>
+              <p style="font-size: 0.84rem; color: var(--text-secondary); margin-bottom: 0.8rem;">
+                Corresponds to <strong>APPENDIX 2: COURSE CERTIFICATE</strong> of the Industrial Internship Report.
+              </p>
+              <div
+                style="display: inline-block; text-align: left; background: var(--bg-secondary); padding: 0.8rem 1.2rem; border-radius: var(--radius-sm); font-size: 0.84rem; margin-bottom: 0.8rem;">
+                <div><strong>Candidate Name:</strong> Arnav Sharma</div>
+                <div><strong>Credential:</strong> Microsoft Certified: Azure AI Fundamentals (AI-901)</div>
+                <div><strong>Institution:</strong> Chandigarh University, Gharuan</div>
+                <div><strong>Status:</strong> Verified Pass</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="app-footer">
+    <div>
+      <strong>Azure AI Foundry Suite</strong> • Industrial Internship Project (AI-901)
+    </div>
+    <div style="margin-top: 0.3rem;">
+      Author: <strong>Arnav Sharma</strong> • Chandigarh University, Gharuan • Supervisor: Program Leader CSE
+    </div>
+    <div style="margin-top: 0.2rem; font-size: 0.78rem; color: var(--text-muted);">
+      Powered by Microsoft Foundry SDK & FastAPI • Standards Aligned with Microsoft Responsible AI v2
+    </div>
+  </footer>
+
+  <script src="/static/js/app.js"></script>
+</body>
+
+</html>

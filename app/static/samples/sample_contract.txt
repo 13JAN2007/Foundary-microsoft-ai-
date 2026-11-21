@@ -1,0 +1,18 @@
+ARTIFICIAL INTELLIGENCE CLOUD SERVICES MASTER AGREEMENT
+Effective Date: November 01, 2026
+Between: Contoso Global AI Platforms Inc. ("Provider") and Chandigarh University Research Institute ("Client")
+
+1. PURPOSE AND SCOPE
+Provider agrees to deliver managed cloud artificial intelligence services through Microsoft Foundry, including hosted large language models, Azure Speech neural services, computer vision multimodal APIs, and Content Understanding pipelines. Client shall utilize these cognitive endpoints in compliance with Microsoft Responsible AI Standards v2, ensuring strict adherence to fairness, transparency, accountability, and privacy protocols.
+
+2. SERVICE LEVEL AGREEMENT (SLA) & PERFORMANCE
+Provider warrants an overall availability uptime of 99.95% during each billing cycle. Model response latency for standard generative completion queries shall not exceed 850 milliseconds under standard load. If uptime falls below 99.5%, Client is entitled to a service credit of 15% on monthly invoice charges.
+
+3. DATA PRIVACY, CONFIDENTIALITY, AND SECURITY
+Neither party shall disclose confidential training data or proprietary customer prompts. All user data processed via Microsoft Foundry is encrypted in transit using TLS 1.3 and at rest using AES-256 bit encryption keys. No customer data or conversational transcripts shall be used by the foundation model provider for retraining or improving base frontier models without explicit written consent.
+
+4. RESPONSIBLE AI COMPLIANCE & GOVERNANCE
+Client must implement automated content filtering to block hate speech, sexual content, violence, and self-harm prompts. In high-stakes domains including healthcare assessment, financial credit scoring, and academic evaluations, human-in-the-loop verification is mandatory. Audit logs shall be preserved for a minimum period of 365 calendar days.
+
+5. TERMINATION AND GOVERNING LAW
+Either party may terminate this agreement upon 30 days prior written notice. This agreement shall be governed by the laws of the State of Washington, USA, and disputes shall be resolved in King County arbitral courts.

@@ -1,0 +1,62 @@
+{
+  "document_type": "Invoice",
+  "invoice_number": "INV-2026-8942",
+  "purchase_order": "PO-99104",
+  "invoice_date": "2026-11-15",
+  "due_date": "2026-12-15",
+  "vendor": {
+    "name": "Contoso Cloud Services Ltd.",
+    "tax_id": "US-EIN-88492019",
+    "address": "One Microsoft Way, Redmond, WA 98052",
+    "email": "billing@contoso-cloud.com",
+    "phone": "+1 (555) 019-2834"
+  },
+  "customer": {
+    "name": "Chandigarh University AI Research Lab",
+    "contact_person": "Arnav Sharma",
+    "department": "Computer Science & Engineering",
+    "address": "NH-05, Chandigarh-Ludhiana Highway, Mohali, Punjab 140413",
+    "email": "arnav.sharma@cumail.in"
+  },
+  "line_items": [
+    {
+      "item_id": "AZ-FND-01",
+      "description": "Azure AI Foundry Model Deployment - GPT-4o Standard (1M Tokens)",
+      "quantity": 10,
+      "unit_price": 50.00,
+      "total": 500.00
+    },
+    {
+      "item_id": "AZ-CU-02",
+      "description": "Azure Content Understanding - Multi-modal Extraction Service",
+      "quantity": 25,
+      "unit_price": 20.00,
+      "total": 500.00
+    },
+    {
+      "item_id": "AZ-SP-03",
+      "description": "Azure AI Speech Neural Voice Synthesis (500k Characters)",
+      "quantity": 5,
+      "unit_price": 30.00,
+      "total": 150.00
+    },
+    {
+      "item_id": "AZ-VIS-04",
+      "description": "Azure Computer Vision 4.0 Image Processing & OCR API",
+      "quantity": 15,
+      "unit_price": 20.00,
+      "total": 300.00
+    }
+  ],
+  "subtotal": 1450.00,
+  "tax_rate": "18%",
+  "tax_amount": 261.00,
+  "discount": 50.00,
+  "total_amount": 1661.00,
+  "payment_terms": "Net 30 Days",
+  "bank_details": {
+    "bank_name": "Silicon Valley Commercial Bank",
+    "routing_number": "021000021",
+    "account_number": "987654321012"
+  }
+}
